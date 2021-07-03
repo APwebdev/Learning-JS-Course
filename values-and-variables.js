@@ -47,3 +47,7 @@ score = score + 10;
 score += 10; // Cleaner code!
 let = bonusMult = 3;
 score *= bonusMult // In english: Take score and multiply it by 3. And then save new value to score
+
+let counter = 0;
+counter++; //Adds 1, so the counter is now 1!
+counter--; //Subtracts the 1, and we're back to 0!
