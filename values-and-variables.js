@@ -38,3 +38,12 @@ hens; // Still 4!
 // To actually change hens:
 hens = hens - 1;
 hens // = 3
+// Always use camelcase (camelCase)
+
+// Unary Operators
+
+let score = 0;
+score = score + 10;
+score += 10; // Cleaner code!
+let = bonusMult = 3;
+score *= bonusMult // In english: Take score and multiply it by 3. And then save new value to score
