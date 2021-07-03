@@ -71,3 +71,22 @@ const minHeighForRide = 60;
 
 // Essentially gives the variable a label.
 
+// The Legacy of Var
+
+var tripDistance = 7.4;
+// Before let & const, var was the only way of declaring variables.
+
+// Priorotise using let and const becuase of browser compatibility!
+
+
+// Variable Quiz
+
+let eggCount = 42;
+eggCount + 2; // = 42
+
+const rating = 7.5;
+rating = 8; // = ERROR
+
+let wind_speed = 76;
+wind_speed += 5;
+wind_speed--; // = 80 (use camelCase)!!!
