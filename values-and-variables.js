@@ -51,3 +51,23 @@ score *= bonusMult // In english: Take score and multiply it by 3. And then save
 let counter = 0;
 counter++; //Adds 1, so the counter is now 1!
 counter--; //Subtracts the 1, and we're back to 0!
+
+// Introducing Const
+
+const hens = 4;
+hens = 20; // ERROR!
+
+const age = 17;
+age = age + 1; // ERROR!
+
+// const works just like let except you CANNOT change the value!
+
+// Why use const? Once we cover Arrays and Objects, we'll see other situations where const makes sense over let.
+const pi = 3.14159;
+
+const daysInWeek = 7;
+
+const minHeighForRide = 60;
+
+// Essentially gives the variable a label.
+
