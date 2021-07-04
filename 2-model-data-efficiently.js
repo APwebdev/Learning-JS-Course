@@ -26,3 +26,15 @@ let animal = 'Dumbo Octopus'
 let something = 'he said "Make me do it!" '
 firstName + lastName; // = ZiggyCanaryface
 firstName + " " + lasName; // = Ziggy Canaryface
+
+
+// STRING INDICES
+
+
+// Strings are indexed. Each character has a corresponding index (a potential number)
+let mySong = "Surfin ' USA"
+mySong.length // = 11
+mySong[0] // = S
+
+let gibberish = '1j2ekqwnwkeejwjkdw'
+gibberish[giberrish.length - 1] // = w
