@@ -38,3 +38,25 @@ mySong[0] // = S
 
 let gibberish = '1j2ekqwnwkeejwjkdw'
 gibberish[giberrish.length - 1] // = w
+
+
+// STRING METHODS
+
+
+// String come with a set of built-in methods, which are ACTIONS that can be performed on or with that particular string.
+// We can do (Searching within a string), (Replacing parts of a string), (Changing case, upper/lowercase)
+
+// Changing Case
+
+let yellMsg = 'I am king';
+let yellMsg = msg.toUpperCase(); // = I AM KING
+let angry = "LeaVe mE AlOnE!";
+angry.toLowerCase(); // = leave me alone
+// The value in angry is unchanged!
+
+// Trim
+
+let color = "          purple                  ";
+color.trim() // = "purple"
+color.trim().toUpperCase() // = "PURPLE"
+// Only removes the leading and trailing spaces while keeping other spaces intact.
