@@ -31,3 +31,22 @@
 "hello".length >= "hello!".length; // false
 'a' < 'A'; // false
 '#' < '$'; // true
+
+
+// DOUBLE EQUALS (==)
+
+
+/*
+
+Checks for equality of value, but not equailty of type.
+It coerces both values to the same type and then compares them.
+This can lead to some unexpected results
+
+*/
+
+ 5 == 5; // = true
+ 'b' == 'c'; // = false
+ 0 == ''; // = true
+ true == false; // = false
+ 0 == false; // = true
+ null == undefined; // = true
