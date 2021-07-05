@@ -60,3 +60,25 @@ let color = "          purple                  ";
 color.trim() // = "purple"
 color.trim().toUpperCase() // = "PURPLE"
 // Only removes the leading and trailing spaces while keeping other spaces intact.
+
+
+// MORE STRING METHODS
+
+
+// Some methods accept arguments that modify their behavior. We pass these arguments inside of the parentheses.
+let tvShow = "catdog";
+
+tvShow.indexOf("cat") // = 0
+tvShow.indexOf("dog") // = 3
+tvShow.indexOf("z") // = -1 (not found)
+
+// Slice
+let str = "baseball"
+
+str.slice(4); // = ball
+str.slice(0.5); // = baseb
+
+// Replace
+let annoyingLaugh = "teehee so funny! teehee!";
+
+annoyingLaugh.replace("teehee", "haha"); // = haha so funny! teehee!  NOTICE that it only replaces the first instance!
