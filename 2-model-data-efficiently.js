@@ -124,3 +124,30 @@ let index = yell.indexOf("!"); // = 7
 "he said I ain\'t happy" // = he said I ain't Happy
 "Hello\nGoodbye" // = Hello (newline) Goodbye
 "\\" // = \ 
+
+
+// STRING TEMPLATE LITERALS
+
+
+// Template literals are strings that allow embedded expressions, which will be evaluated and then turned into a resulting string.
+
+`I counted ${3 + 4 } sheep`; // = I counted 7 sheep
+// We use BACK-TICKS not SINGLE QUOTES!!! ' = `
+
+let username = 'Ziggy31';
+`Welcome back, ${username}`; // = Welcome back, Ziggy31
+
+`GAME OVER ${username.toUpperCase()}`; // = GAME OVER ZIGGY31
+
+let item = 'cucumbers';
+let price = 1.99;
+let quantity = 4;
+
+`You bought ${quantity} ${item}, total price: $${price * quantity}`;
+// = You bought 4 cucumbers, total price: $7.96
+
+const minAge = 21;
+let yourAge = 19;
+
+`You must be ${minAge} to enter. Come back in ${minAge - yourAge} years!`
+// = You must be 21 to enter. Come back in 2 years!
