@@ -170,3 +170,42 @@ loggedInUser = 'Alan Rickman';
 "lol"[4]; // = Undefined
 const u = underfined; // = Undefined
 let color; // Undefined
+
+
+// MATH OBJECT
+// Contains properties and methods for mathematical constants and functions
+
+Math.PI // 3.141592653589793
+
+// Rounding a number:
+Math.round(4.9); // = 5
+
+// Absolute value:
+Math.abs(-456); // = 456
+
+// Raises 2 to the 5th power:
+Math.pow(2,5); // = 32
+
+// Removes decimal:
+Math.floor(3.9999); // = 3
+
+// Random Numbers
+// Math.random() gives us a random decimal between 0 and 1 (non-inclusive)
+
+Math.random(); // = 0.13441231239523
+Math.random(); // = 0.1238143792845
+Math.random(); // = 0.5820340212334
+
+// Random Integers
+// Let's generate random numbers between 1 and 10
+
+const step1 = Math.random();
+// = 0.5961104892819127
+const step2 = step1 * 10
+// = 5.961104892810127
+const step3 = math.floor(step2);
+// = 5
+const step4 = step3 + 1;
+// = 6
+
+Math.floor(Math.random() * 10) + 1;
