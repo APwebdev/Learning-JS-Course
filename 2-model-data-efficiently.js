@@ -216,3 +216,15 @@ Math.floor(Math.random() * 10) + 1;
 typeof 'hello'; // = String
 typeof 2; // = Number
 typeof true; // = Boolean
+
+
+// PARSEINT & PARSEFLOAT
+// Use to parse strings into numbers, but watch out for NaN!
+
+parseInt('24'); // = 24
+parseInt('24.987'); // = 24
+parseInt('28dayslater') // = 28
+
+parseFloat('24.987'); // = 24.987
+parseFloat('7'); // = 7
+parseFloat('I ate 3 shrimps'); // = NaN
