@@ -82,3 +82,32 @@ str.slice(0.5); // = baseb
 let annoyingLaugh = "teehee so funny! teehee!";
 
 annoyingLaugh.replace("teehee", "haha"); // = haha so funny! teehee!  NOTICE that it only replaces the first instance!
+
+
+// STRING QUIZ
+
+
+// What is the value of age?
+const age = "5" + "4"; // = 54
+
+// What does this evaluate to?
+"pecan pie" [7]; // = i
+"PUP" [3]; // = Undefined (ERROR)
+
+// What is the value of song?
+let song = "london calling";
+song.toUpperCase(); // = london calling (song is unaltered, and not being stored so it remains the same)
+
+// What is the value of cleanedInput?
+let userInput = "   TODD@gmail.com";
+let cleanedInput = userInput.trim().toLowerCase(); // = "todd@gmail.com"
+
+// What is the value of index?
+let park = "Yellowstone";
+const index = park.indexOf("Stone"); // = -1 (not found)
+
+let yell = "GO AWAY!!";
+let index = yell.indexOf("!"); // = 7
+
+// What does this evaluate to?
+"GARBAGE".slice(2).replace("B", ""); // = RAGE!
