@@ -111,3 +111,16 @@ let index = yell.indexOf("!"); // = 7
 
 // What does this evaluate to?
 "GARBAGE".slice(2).replace("B", ""); // = RAGE!
+
+
+// STRING ESCAPES
+
+
+// \n - newline
+// \' - single quote
+// \" - double quote
+// \\ - backslash
+
+"he said I ain\'t happy" // = he said I ain't Happy
+"Hello\nGoodbye" // = Hello (newline) Goodbye
+"\\" // = \ 
