@@ -151,3 +151,22 @@ let yourAge = 19;
 
 `You must be ${minAge} to enter. Come back in ${minAge - yourAge} years!`
 // = You must be 21 to enter. Come back in 2 years!
+
+
+// NULL & UNDIFINED
+
+
+// Null
+// "Intentional absence of any value", Must be assigned
+
+// No one is logged in yet...
+let loggedInUser = null; // value is explicitly nothing
+// A user logs in...
+loggedInUser = 'Alan Rickman';
+
+//Undefined
+// Variables that do not have an assigned value are undefined
+
+"lol"[4]; // = Undefined
+const u = underfined; // = Undefined
+let color; // Undefined
