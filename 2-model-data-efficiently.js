@@ -209,3 +209,10 @@ const step4 = step3 + 1;
 // = 6
 
 Math.floor(Math.random() * 10) + 1;
+
+
+// TYPEOF OPERATOR
+
+typeof 'hello'; // = String
+typeof 2; // = Number
+typeof true; // = Boolean
