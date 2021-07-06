@@ -93,3 +93,31 @@ let num = 37;
 if(num % 2 !==0) {
     console.log('Odd Number');
 }
+
+
+// ELSE IF
+
+
+// If not the first thing, maybe this other thing??
+// You can have multiple else ifs!
+
+/*
+
+Performance Review
+3 - Superstar
+2 - Meets expectations
+1 - Needs improvements
+
+*/
+
+let rating = 2;
+
+if (rating === 3) {
+    console.log("You're a superstar!");
+}
+else if (rating === 2) {
+    console.log ("Meets expectationms");
+}
+else if (rating === 1) {
+    console.log("Needs improvement");
+}
