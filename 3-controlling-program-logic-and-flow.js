@@ -64,3 +64,17 @@ This can lead to some unexpected results
  // Same applies for != and !==
  10 != '10'; // = false
  10 !== '10'; // = true
+
+
+ // RUNNING CODE FROM A SCRIPT
+
+
+ /*
+
+Include your script in a .html file, by using <script> and the src attribute.
+Then write your code in a .js file!
+
+ */
+
+// console.log() prints arguments to the console (we need this if we're going to start working with files!)
+
