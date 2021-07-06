@@ -78,3 +78,18 @@ Then write your code in a .js file!
 
 // console.log() prints arguments to the console (we need this if we're going to start working with files!)
 
+
+// IF STATEMENTS
+
+
+// if
+
+let rating = 3;
+if (rating === 3) {
+    console.log("You are a superstar!");
+}
+
+let num = 37;
+if(num % 2 !==0) {
+    console.log('Odd Number');
+}
