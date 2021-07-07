@@ -328,3 +328,23 @@ switch(day) {
     default:
         console.log('Invalid day!');
 }
+
+
+// TERNARY OPERATOR
+
+
+// Condition ? expIfTrue: expIfFalse
+
+let num = 7;
+if(num === 7) {
+    console.log("Lucky!");
+} else {
+    console.log("Bad!");
+}
+
+// Eassier way to do "Example 1"
+
+num === 7 ? console.log('Lucky!'): console.log("Bad!");
+
+let status = "online";
+let color = status === "offline" ? 'red': 'green';
