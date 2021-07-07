@@ -134,7 +134,7 @@ if (rating === 3) {
     console.log("You're a superstar!");
 }
 else if (rating === 2) {
-    console.log ("Meets expectationms");
+    console.log ("Meets expectations");
 }
 else if (rating === 1) {
     console.log("Needs improvement");
@@ -224,4 +224,22 @@ if(num >= 1 && num <= 10) {
 }
 else {
     console.log('Please guess a number between 1 and 10');
+}
+
+
+// OR
+
+// If one side is true, the whole thing is true
+
+1 !== 1 || 10 === 10 // = true
+10/2 === 5 || null // = true
+0 || undefined // = false
+
+// Example 2
+
+let age = 76
+if(age < 6 || age >= 65) {
+    console.log('You get in for free!');
+} else {
+    console.log('That will be $10 please.')
 }
