@@ -266,3 +266,14 @@ let flavor = "grape";
 if(flavor !== 'grape' && flavor !== 'cherry') {
     console.log("We only have grape and cherry!");
 }
+
+
+// OPERATOR PRECEDENCE
+
+
+// Not (!) has a higher precedence than && and ||. && has higher precedence than ||
+// You can alter this using parens ()
+
+let x = 7;
+x == 7 || (x === 3 && x > 10); // = true
+(x == 7 || x === 3) && x > 10; // = false
