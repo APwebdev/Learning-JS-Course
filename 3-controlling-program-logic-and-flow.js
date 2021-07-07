@@ -243,3 +243,26 @@ if(age < 6 || age >= 65) {
 } else {
     console.log('That will be $10 please.')
 }
+
+
+// NOT operator (!)
+
+
+// !expression returns true if the expression is false!
+!null // = true
+!(0 === 0) // = false
+!(3 <= 4) // = false
+
+// Example 2
+
+let loggedInUser;
+if(!loggedInUser) {
+    console.log('Get out of here!')
+}
+
+// Example 3
+
+let flavor = "grape";
+if(flavor !== 'grape' && flavor !== 'cherry') {
+    console.log("We only have grape and cherry!");
+}
