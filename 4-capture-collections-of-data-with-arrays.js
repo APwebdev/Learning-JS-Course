@@ -159,3 +159,16 @@ letters.reverse() // = R E S P E C T
 letters.join(' ') // = "T C E P S E R"
 
 letters.reverse().join('.'); // = "R.E.S.P.E.C.T"
+
+
+// SLICE
+
+
+// Copy portion of an arr
+
+let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise']
+
+let swimmers = animals.slice(0, 3); // = ["Shark", "Salmon", "Whale"]
+let mammals = animals.slice(2, 4); // = ["Whale", "Bear"]
+let reptiles = animals.slice(4); // = ["Lizard", "Tortoise"]
+let quadruped = animals.slice(-3); // = ["Bear", "Lizard", "Tortoise"]
