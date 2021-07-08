@@ -219,3 +219,25 @@ nums.push(9); // otherNums = 5,6,7,8,9
 
 const myEggs = ['brown', 'brown'];
 myEggs.push('white');
+
+
+// WORKING WITH NESTED ARRAYS
+
+
+// We can store arrays inside other arrays!
+
+const colors= [
+    ['red', 'crimson'],
+    ['orange', 'dark orange'],
+    ['yellow', 'golden rod'],
+    ['green','olive'],
+    ['blue', 'navy blue'],
+    ['purple', 'orchid']
+]
+
+const board = [
+    ['0', null, 'X']
+    [null, 'X', 'O']
+    ['X', '0', null]
+]
+// Tic tac toe board 
