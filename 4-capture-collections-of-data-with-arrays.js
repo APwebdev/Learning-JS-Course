@@ -108,3 +108,36 @@ let veggies = ['asparagus', 'brussel sprouts'];
 let meats = ['steak', 'chicken breast'];
 
 let allFood = fruits.concat(veggies, meats); // = They merge into one Array!
+
+
+// INCLUDES AND INDEXOF
+
+
+/*
+
+Includes = Look for a value
+indexOf = just like str.indexOf
+
+*/
+
+let ingredients = [
+    'water',
+    'corn starch',
+    'flour',
+    'cheese',
+    'brown sugar',
+    'shrimp',
+    'butter'
+];
+
+ingredients.includes('corn'); // = false
+ingredients.includes('water'); // = true
+ingredients.includes('water', 3); // = false
+ingredients.includes('water', 0); // = true
+
+if(ingredients.includes('flour')) {
+    console.log('I am gluten free, I cannot eat that!')
+}
+
+ingredients.indexOf('water'); // = 0
+ingredients.indexOf('syrup'); // = -1
