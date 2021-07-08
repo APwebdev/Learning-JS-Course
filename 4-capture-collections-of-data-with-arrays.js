@@ -82,3 +82,18 @@ let topSongs = [
 topSongs.push('Fortunate Son')
 topSongs.push(true)
 const nextSong = topSongs.pop()
+
+
+// SHIFT AND UNSHIFT
+
+
+let dishesToDO = ['big platter']
+dishedToDo.unshift('large plate')
+dishedToDo.unshift('small plate')
+dishedToDo.unshift('cereal bowl')
+dishedToDo.unshift('mug')
+dishedToDo.unshift('dirty spoon')
+dishesToDO.shift()
+dishesToDO.shift()
+dishesToDO.shift()
+dishesToDO.shift()
