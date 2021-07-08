@@ -33,3 +33,16 @@ let lottoNums = [19,22,56,12,51]
 
 // A mixed array
 let stuff = [true, 68, 'cat', null];
+
+
+// ARRAY INDICES
+
+
+// Arrays are indexed!
+let colors = ['red', 'orange', 'yellow', 'green'];
+colors.length // = 4
+colors[0] // = red
+colors[1] // = orange
+colors[2] // = yellow
+colors[3] // = green
+colors[4] // = undefined
