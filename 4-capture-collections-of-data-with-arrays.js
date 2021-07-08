@@ -55,3 +55,30 @@ let colors = ['rad', 'orange', 'green', 'yellow'];
 colors[0] = 'red';
 colors[4] = 'blue'; 
 colors[colors.length] = 'indigo'
+
+
+// PUSH AND POP
+
+
+/*
+
+Array Methods
+
+- Push : add to the end
+- Pop : remove from the end
+- Shift : remove from the start
+- Unshift : add to start
+
+You migh mix up shift and unshift for a while!
+
+*/
+
+let topSongs = [
+    'First Time I Ever Saw Your Face',
+    'God Only Knows',
+    'A Day In The Life',
+    'Life On Mars'
+];
+topSongs.push('Fortunate Son')
+topSongs.push(true)
+const nextSong = topSongs.pop()
