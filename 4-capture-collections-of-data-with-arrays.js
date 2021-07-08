@@ -210,3 +210,12 @@ fruit = watermelon;
 let nums = [5,6,7,8];
 let otherNums = nums
 nums.push(9); // otherNums = 5,6,7,8,9
+
+
+// USING CONST WITH ARRAYS
+
+
+// You'll often see people use const with arrays
+
+const myEggs = ['brown', 'brown'];
+myEggs.push('white');
