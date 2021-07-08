@@ -153,3 +153,9 @@ Reverse = Reverses an array!
 
 */
 
+let letters = ['T', 'C', 'E','P', 'S', 'E', 'R'];
+letters.reverse() // = R E S P E C T
+
+letters.join(' ') // = "T C E P S E R"
+
+letters.reverse().join('.'); // = "R.E.S.P.E.C.T"
