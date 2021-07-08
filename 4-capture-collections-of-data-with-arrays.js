@@ -141,3 +141,15 @@ if(ingredients.includes('flour')) {
 
 ingredients.indexOf('water'); // = 0
 ingredients.indexOf('syrup'); // = -1
+
+
+// REVERSE AND JOIN
+
+
+/*
+
+Join = Creates a string from arr
+Reverse = Reverses an array!
+
+*/
+
