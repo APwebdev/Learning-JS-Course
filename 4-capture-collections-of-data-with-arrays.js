@@ -183,3 +183,17 @@ let animals = ['shark', 'salmon', 'whale', 'bear', 'lizard', 'tortoise']
 
 animals.splice(1, 0, 'octopus'); // = ['shark', 'octopus', 'whale', ...]
 animals.splice(3, 2); // deleted whale and bear
+
+
+// SORTING
+
+
+// Sorts an array
+
+let people = ['mrs. Robinson', 'Angie', 'Jolene', 'Maggie May', 'Roxanne'];
+
+people.sort(); // = ['Angie', 'Jolene', and so on alphabetical order...]
+
+let nums = [34,10,100000,67,99]
+
+nums.sort(); // = [10, 100000, 34, 67, 99]
