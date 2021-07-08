@@ -197,3 +197,16 @@ people.sort(); // = ['Angie', 'Jolene', and so on alphabetical order...]
 let nums = [34,10,100000,67,99]
 
 nums.sort(); // = [10, 100000, 34, 67, 99]
+
+
+// INTRO TO REFERENCE TYPES
+
+
+let fruit = "orange";
+let color = fruit;
+fruit = watermelon;
+// color still remains orange
+
+let nums = [5,6,7,8];
+let otherNums = nums
+nums.push(9); // otherNums = 5,6,7,8,9
