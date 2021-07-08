@@ -97,3 +97,14 @@ dishesToDO.shift()
 dishesToDO.shift()
 dishesToDO.shift()
 dishesToDO.shift()
+
+
+// CONCAT
+
+// Merge Arrays
+
+let fruits = ['apple', 'banana'];
+let veggies = ['asparagus', 'brussel sprouts'];
+let meats = ['steak', 'chicken breast'];
+
+let allFood = fruits.concat(veggies, meats); // = They merge into one Array!
