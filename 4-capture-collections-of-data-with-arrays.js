@@ -46,3 +46,12 @@ colors[1] // = orange
 colors[2] // = yellow
 colors[3] // = green
 colors[4] // = undefined
+
+
+// MODIFYING ARRAYS
+
+
+let colors = ['rad', 'orange', 'green', 'yellow'];
+colors[0] = 'red';
+colors[4] = 'blue'; 
+colors[colors.length] = 'indigo'
